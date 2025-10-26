@@ -51,6 +51,8 @@ hs_err_pid*
 Thumbs.db
 ehthumbs.db
 
-# Output files (optional - remove if you want to commit results)
-src/main/resources/output/*.json
-src/main/resources/output/*.csv
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
